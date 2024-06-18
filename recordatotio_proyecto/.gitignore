@@ -1,0 +1,7 @@
+# Ignorar archivos y carpetas
+
+*.log
+*.tmp
+*~
+.DS_Store
+.gitignore
