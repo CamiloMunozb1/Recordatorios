@@ -31,5 +31,6 @@ def titulo():
             print("titulo agregado correctamente")
 
         #MANEJO DE ERRORES
+        
         except ValueError as error:
             print(f"error de digitacion {error}")

@@ -6,6 +6,8 @@ import sqlite3
 
 from recordatorios.funcjones.titulo import titulo
 from recordatorios.funcjones.recordatorio import recordatorio
+from recordatorios.funcjones.eliminacion import eliminarcion
+from recordatorios.funcjones.completos import completos
 
 
 
@@ -18,8 +20,9 @@ while True:
           Bienvenido a su sistema de recordatorios:
           1. Ingresar el titulo del recordatorio
           2  Ingrese el recordatorio
-          3. Eliminar un recordatorio
-          3. Salir
+          3. Mostrar recordatorios
+          5. Eliminar recordatorios
+          4. Salir
         """)
     try:
 
@@ -33,6 +36,14 @@ while True:
             titulo()
         elif usuario == 2:
             recordatorio()
+        elif usuario == 3:
+            completos()
+        elif usuario == 5:
+            eliminarcion()
+        elif usuario == 6:
+            print("Gracias por gestionar sus recordatorios, hasta luego")
+            break
+
     
     # MANEJO DE PROBLEMAS 
     except ValueError:
