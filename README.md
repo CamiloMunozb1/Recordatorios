@@ -6,7 +6,7 @@ Pitón 3.x
 Biblioteca sqlite3(incluida en la biblioteca estándar de Python)
 
 # Funcionalidades
-1.Ingresar el título del recordatorio : Permite al usuario ingresar el título de un nuevo recordatorio.
+1. Ingresar el título del recordatorio : Permite al usuario ingresar el título de un nuevo recordatorio.
 2. Ingrese el recordatorio : permite al usuario ingresar el contenido del recordatorio.
 3. Mostrar recordatorios : Muestra todos los recordatorios almacenados en la base de datos.
 4. Eliminar recordatorios : permite al usuario eliminar un recordatorio específico.
@@ -15,17 +15,17 @@ Biblioteca sqlite3(incluida en la biblioteca estándar de Python)
 # manejo de errores
 El sistema maneja dos tipos principales de errores:
 
-ValueError : Cuando la entrada del usuario no es válida (no es un número).
-sqlite3.Error : Cualquier error relacionado con la base de datos SQLite.
+1. ValueError : Cuando la entrada del usuario no es válida (no es un número).
+2. sqlite3.Error : Cualquier error relacionado con la base de datos SQLite.
 
 # Contribuir
 Si deseas contribuir a este proyecto, por favor sigue los siguientes pasos:
 
-Haz un fork del repositorio.
-Crea una rama para tu característica o corrección de errores ( git checkout -b feature/nueva-caracteristica).
-Realiza tus cambios y confirma tus commits ( git commit -am 'Agrega nueva característica').
-Sube tu rama ( git push origin feature/nueva-caracteristica).
-Abra una solicitud de extracción.
+1. Haz un fork del repositorio.
+2. Crea una rama para tu característica o corrección de errores ( git checkout -b feature/nueva-caracteristica).
+3. Realiza tus cambios y confirma tus commits ( git commit -am 'Agrega nueva característica').
+4. Sube tu rama ( git push origin feature/nueva-caracteristica).
+5. Abra una solicitud de extracción.
 
 # licencia
 Este proyecto está licenciado bajo la Licencia MIT. Ver el archivo LICENSEpara más detalles.
