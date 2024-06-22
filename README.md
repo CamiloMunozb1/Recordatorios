@@ -2,8 +2,8 @@
 Este proyecto es un sistema de recordatorios simple que utiliza SQLite como base de datos y Python para la lógica del programa. Permite a los usuarios agregar, mostrar y eliminar recordatorios.
 
 # Requisitos
-Pitón 3.x
-Biblioteca sqlite3(incluida en la biblioteca estándar de Python)
+1. Python 3.x
+2. Biblioteca sqlite3(incluida en la biblioteca estándar de Python)
 
 # Funcionalidades
 1. Ingresar el título del recordatorio : Permite al usuario ingresar el título de un nuevo recordatorio.
