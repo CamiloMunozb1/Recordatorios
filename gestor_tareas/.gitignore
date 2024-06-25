@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+
+# SQLite database file
+*.db
+
+# IDE/Editor specific files
+.vscode/
+.idea/
+
+# Miscellaneous
+*.log
